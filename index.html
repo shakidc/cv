@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV - Shaki Saptiadi Putra</title>
+  <style>
+    :root {
+      --bg-color: #0f1115;
+      --primary: #00ffe7;
+      --text: #d3d3d3;
+      --accent: #ff0080;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-color);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 0;
+      border-bottom: 2px solid var(--primary);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,255,231,0.2);
+      backdrop-filter: blur(4px);
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-top: 2rem;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      color: var(--primary);
+      margin-top: 1.5rem;
+    }
+
+    ul, p {
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    li {
+      margin-bottom: 0.3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+      border-top: 1px solid var(--primary);
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .glow {
+      text-shadow: 0 0 5px var(--primary), 0 0 10px var(--accent);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="glow">Ir. Shaki Saptiadi Putra, S.T., M.Eng., IPP.</h1>
+    <p>Project Manager at PT. Datto Asia Teknologi</p>
+    <p>Email: shaki.saptiadi.p@mail.ugm.ac.id</p>
+  </header>
+
+  <main>
+    <section class="section reveal">
+      <h2>1. Personal Information</h2>
+      <ul>
+        <li><strong>Full Name:</strong> Ir. Shaki Saptiadi Putra, S.T., M.Eng., IPP.</li>
+        <li><strong>Nationality:</strong> Indonesian</li>
+        <li><strong>Gender:</strong> Male</li>
+        <li><strong>Place & Date of Birth:</strong> Padang, May 25th 1996</li>
+        <li><strong>Company:</strong> PT. Datto Asia Teknologi</li>
+        <li><strong>Supervisor:</strong> Ir. Rony Wijaya, S.T., M.Eng., IPM.</li>
+        <li><strong>Current Position:</strong> Project Manager</li>
+        <li><strong>Email:</strong> shaki.saptiadi.p@mail.ugm.ac.id</li>
+      </ul>
+    </section>
+
+    <section class="section reveal">
+      <h2>2. Education and Professional Qualification</h2>
+
+      <h3>2.1 Academic Qualification</h3>
+      <ul>
+        <li>Master of Engineering (Instrumentation System), UGM – 2023</li>
+        <li>Bachelor of Engineering (Instrumentation System), UGM – 2019</li>
+      </ul>
+
+      <h3>2.2 Professional Qualification</h3>
+      <ul>
+        <li>Professional Engineer (Ir.) – 2024</li>
+        <li>Junior Professional Engineer (IPP), PII</li>
+      </ul>
+
+      <h3>2.3 Work & Internship Experience</h3>
+      <ul>
+        <li>Project Manager – PT. Datto Asia Teknologi (2020–2025)</li>
+        <li>IoT Engineer – PT. Datto Asia Teknologi (2018–2020)</li>
+        <li>Intern – PT. Dirgantara Indonesia, Electric Box Assembly (2018)</li>
+        <li>Intern – PT. Datto Asia Teknologi, IoT Division (2017)</li>
+      </ul>
+
+      <h3>2.4 Skills & Portfolio</h3>
+      <p><strong>Specializations:</strong> IoT, Microcontroller, Single Board Computer, Sensors, Web Dev, AI, CI/CD</p>
+      <p><strong>Languages:</strong> Python, C++, JavaScript, SQL, PHP, Bash</p>
+      <p><strong>Portfolio:</strong></p>
+      <ul>
+        <li>2025 – Renewable Energy Monitoring System (Bali)</li>
+        <li>2024 – Smart Transformer Monitoring System (UKSW)</li>
+        <li>2024 – Composter & Waste Monitoring System (UGM)</li>
+        <li>2023 – Early Warning System for Earthquakes (Telkom)</li>
+        <li>2020 – <a href="https://naker.news" target="_blank" style="color: var(--primary);">naker.news</a> Web App</li>
+      </ul>
+
+      <h3>2.5 Research Achievements</h3>
+      <ul>
+        <li>Publication: COVID-19 Low-Cost Health Monitoring (AIP) – <a href="https://doi.org/10.1063/5.0122977" target="_blank" style="color: var(--primary);">DOI</a></li>
+        <li>Patent: Thermal Comfort Instrument (2020 – On Review)</li>
+        <li>HaKI: Healthy Environment in Energy-Efficient Building</li>
+      </ul>
+
+      <h3>2.6 Academic Services</h3>
+      <p>Lab Instructor & Assistant at DTNTF UGM (2016–2025), various courses in Instrumentation, Electronics, Communication</p>
+    </section>
+
+    <section class="section reveal">
+      <h2>3. Organizations</h2>
+
+      <h3>3.1 Professional Organization</h3>
+      <ul>
+        <li>Member – The Institution of Engineers Indonesia (PII) – 2024–Present</li>
+      </ul>
+
+      <h3>3.2 Student Organization</h3>
+      <ul>
+        <li>AVANTE – Adventurer and Environmentalist Society (2013–2018)</li>
+        <li>KMTF – Keluarga Mahasiswa Teknik Fisika (2013–2016)</li>
+        <li>KMT / KAMADZ – Muslim Student Associations (2013–2015)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ir. Shaki Saptiadi Putra. All rights reserved.
+  </footer>
+
+  <script>
+    const reveals = document.querySelectorAll(".reveal");
+    window.addEventListener("scroll", () => {
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const revealTop = reveals[i].getBoundingClientRect().top;
+        if (revealTop < windowHeight - 100) {
+          reveals[i].classList.add("active");
+        }
+      }
+    });
+  </script>
+</body>
+</html>
