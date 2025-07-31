@@ -7,13 +7,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-color: #0d1a26;       /* Dark charcoal/navy for depth */
-      --primary: #5ac8fa;        /* Soft, sophisticated blue */
-      --secondary: #a2d2ff;     /* Lighter blue for accents */
+      --bg-color: #121212;       /* Very dark gray/near black */
+      --primary: #007bff;        /* Deep, classic blue */
+      --secondary: #6c757d;     /* Muted gray for secondary info */
       --text: #e0e0e0;           /* Off-white for readability */
-      --accent: #ff9f1c;         /* Warm orange for highlights */
-      --card-bg: rgba(255, 255, 255, 0.05); /* Slightly transparent white for cards */
-      --border-color: rgba(255, 255, 255, 0.1); /* Subtle border for separation */
+      --accent: #ffc107;         /* Rich gold/amber for highlights */
+      --card-bg: rgba(255, 255, 255, 0.03); /* Very subtle transparency for cards */
+      --border-color: rgba(255, 255, 255, 0.08); /* Darker, subtle border */
     }
 
     * {
@@ -34,7 +34,7 @@
     header {
       text-align: center;
       padding: 3rem 1rem;
-      background: linear-gradient(180deg, var(--bg-color) 0%, darken(var(--bg-color), 5%) 100%);
+      background: linear-gradient(180deg, var(--bg-color) 0%, #1a1a1a 100%);
       border-bottom: 1px solid var(--border-color);
       position: relative;
       overflow: hidden;
@@ -47,7 +47,7 @@
       left: -50%;
       width: 200%;
       height: 200%;
-      background: radial-gradient(circle at center, rgba(90, 200, 250, 0.1) 0%, transparent 70%);
+      background: radial-gradient(circle at center, rgba(0, 123, 255, 0.08) 0%, transparent 70%);
       animation: pulse 15s infinite alternate;
       pointer-events: none;
     }
@@ -64,13 +64,13 @@
       object-fit: cover;
       border: 3px solid var(--primary);
       margin-bottom: 1.5rem;
-      box-shadow: 0 0 20px rgba(90, 200, 250, 0.4);
+      box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     header img:hover {
       transform: scale(1.05);
-      box-shadow: 0 0 30px rgba(90, 200, 250, 0.6);
+      box-shadow: 0 0 30px rgba(0, 123, 255, 0.5);
     }
 
     header h1 {
@@ -78,7 +78,7 @@
       font-size: 2.8rem;
       color: var(--primary);
       margin-bottom: 0.75rem;
-      text-shadow: 0 0 15px rgba(90, 200, 250, 0.5);
+      text-shadow: 0 0 15px rgba(0, 123, 255, 0.4);
       letter-spacing: 1px;
     }
 
@@ -100,14 +100,14 @@
       border-radius: 12px;
       padding: 2.5rem;
       margin-bottom: 2.5rem;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
       border: 1px solid var(--border-color);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     section:hover {
       transform: translateY(-5px);
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
     }
 
     h2 {
@@ -362,7 +362,7 @@
               <li><strong>IoT:</strong> HTTP, MQTT, WebSocket, LoRa, BLE, ESP-Now</li>
               <li><strong>Microcontroller:</strong> Arduino, ESP32, Cypress PSoC 5LP</li>
               <li><strong>Single Board Computer:</strong> Raspberry Pi 2/3/4, Nvidia Jetson Nano/AGX</li>
-              <li><strong>Sensor System:</strong> Analog, One-Wire, I2C, SPI, RS232, RS482</li>
+              <li><strong>Sensor System:</strong> Analog, One-Wire, I2C, SPI, UART, MODBUS</li>
               <li><strong>Database Management System:</strong> MySQL, PostgreSQL, SQLite, MongoDB</li>
               <li><strong>Web Development:</strong> PHP Native, Laravel, CodeIgniter, Django, Flask, FastAPI, ExpressJS, ReactJs, Gin</li>
               <li><strong>CI/CD:</strong> Docker, Git</li>
